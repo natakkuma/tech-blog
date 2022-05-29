@@ -1,16 +1,17 @@
+//REQUIRE
 const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
 
-// create our User model
+//USER MODEL
 class User extends Model {
-  // set up method to run on instance data (per user) to check password
+  //PASSWORD CHECK
   checkPassword(loginPw) {
     return bcrypt.compareSync(loginPw, this.password);
   }
 }
 
-// create fields/columns for User model
+//FIELD & COLUMNS FOR USER MODEL
 User.init(
   {
     id: {
@@ -60,4 +61,5 @@ User.init(
   }
 );
 
+//EXPORT
 module.exports = User;
