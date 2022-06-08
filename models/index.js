@@ -12,13 +12,13 @@ Post.belongsTo(User, {
   foreignKey: 'user_id'
 });
 
-User.belongsToMany(Post, {
-  foreignKey: 'user_id'
-});
+// User.belongsToMany(Post, {
+//   foreignKey: 'user_id'
+// });
 
-Post.belongsToMany(User, {
-  foreignKey: 'post_id'
-});
+// Post.belongsToMany(User, {
+//   foreignKey: 'post_id'
+// });
 
 //COMMENT USER POST ASSOCIATIONS
 Comment.belongsTo(User, {
