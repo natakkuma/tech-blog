@@ -8,7 +8,7 @@ AS A developer who writes about tech<br>
 I WANT a CMS-style blog site<br>
 SO THAT I can publish articles, blog posts, and my thoughts and opinions<br>
 
-<h2>Acceptance Criteria<h2>
+<h2>Acceptance Criteria</h2>
 GIVEN a CMS-style blog site<br>
 WHEN I visit the site for the first time<br>
 THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in<br>
