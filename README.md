@@ -47,3 +47,6 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 <h2>Heroku Deployment Link </h2>
 https://shrouded-mountain-99915.herokuapp.com/
+
+<h2>Local Usage</h2>
+Open locally at http://localhost:3001/ 
