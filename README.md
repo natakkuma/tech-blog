@@ -44,7 +44,7 @@ WHEN I am idle on the site for more than a set time<br>
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments<br>
 
 <h2>Screenshot</h2>
-![image](https://user-images.githubusercontent.com/95733427/173267651-f5f9b4b1-dd8a-4218-b78c-22079e2bc319.png)
+<img src="https://user-images.githubusercontent.com/95733427/173267651-f5f9b4b1-dd8a-4218-b78c-22079e2bc319.png"/>
 
 <h2>Heroku Deployment Link </h2>
 https://shrouded-mountain-99915.herokuapp.com/
